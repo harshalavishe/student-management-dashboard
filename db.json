@@ -1,0 +1,70 @@
+{
+  "users": [
+    {
+      "name": "harshala",
+      "marks": {
+        "Physics": 75,
+        "Chemistry": 62,
+        "Mathematics": 76,
+        "Biology": 87
+      },
+      "city": "shahapur",
+      "id": "K5rIptDKk08"
+    },
+    {
+      "name": "Kirti",
+      "marks": {
+        "Physics": 82,
+        "Chemistry": 90,
+        "Mathematics": 70,
+        "Biology": 55
+      },
+      "city": "Kasgaon",
+      "id": "6xQ4ArLX6kU"
+    },
+    {
+      "name": "Ankita",
+      "marks": {
+        "Physics": 56,
+        "Chemistry": 62,
+        "Mathematics": 70,
+        "Biology": 90
+      },
+      "city": "vashind",
+      "id": "vAjnvaCH-hU"
+    },
+    {
+      "name": "Sneha",
+      "marks": {
+        "Physics": 56,
+        "Chemistry": 65,
+        "Mathematics": 78,
+        "Biology": 65
+      },
+      "city": "Thane",
+      "id": "N5uDtxxCZG4"
+    },
+    {
+      "name": "Bhumika",
+      "marks": {
+        "Physics": 45,
+        "Chemistry": 40,
+        "Mathematics": 65,
+        "Biology": 74
+      },
+      "city": "Sathgaon",
+      "id": "LSfRtUb"
+    },
+    {
+      "name": "Divya",
+      "marks": {
+        "Physics": 84,
+        "Chemistry": 34,
+        "Mathematics": 67,
+        "Biology": 78
+      },
+      "city": "kalyan",
+      "id": "IjG6QJg"
+    }
+  ]
+}

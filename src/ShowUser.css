@@ -1,0 +1,207 @@
+/* MAIN PAGE */
+
+.dashboard {
+  min-height: 100vh;
+  background: #f4f7fb;
+  padding: 30px;
+  box-sizing: border-box;
+}
+
+
+/* PAGE TITLE */
+
+.page-title {
+  text-align: center;
+  color: #1f2937;
+  margin-bottom: 25px;
+  font-size: 28px;
+}
+
+
+/* CHART CARD */
+
+.chart-card {
+  width: 100%;
+  max-width: 1100px;
+  margin: auto;
+  background: white;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  box-sizing: border-box;
+}
+
+.chart-card h2 {
+  text-align: center;
+  color: #374151;
+  margin-bottom: 10px;
+}
+
+
+/* SHOW / HIDE BUTTON */
+
+.show-user-btn {
+  display: block;
+  width: 100px;
+  height: 40px;
+  margin: 20px auto;
+  border: none;
+  border-radius: 7px;
+  background-color: #0074d9;
+  color: white;
+  font-size: 13px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.show-user-btn:hover {
+  background-color: #005bb5;
+  transform: scale(1.05);
+}
+
+
+/* USERS GRID */
+
+.users-container {
+  max-width: 1100px;
+  margin: 25px auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+}
+
+
+/* USER CARD */
+
+.user-card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+  transition: 0.3s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 7px 20px rgba(0, 0, 0, 0.12);
+}
+
+
+/* USER NAME */
+
+.user-card h2 {
+  margin: 0;
+  text-transform: capitalize;
+  color: #1f2937;
+}
+
+
+/* CITY */
+
+.city {
+  color: #6b7280;
+  margin-top: 6px;
+  margin-bottom: 18px;
+}
+
+
+/* MARKS */
+
+.marks {
+  border-top: 1px solid #e5e7eb;
+  padding-top: 10px;
+}
+
+
+/* EACH MARK */
+
+.mark-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 0;
+  color: #4b5563;
+}
+
+.mark-row strong {
+  color: #111827;
+}
+
+
+/* ACTION BUTTONS */
+
+.action-buttons {
+  display: flex;
+  gap: 10px;
+  margin-top: 18px;
+}
+
+
+/* EDIT BUTTON */
+
+.edit-btn {
+  flex: 1;
+  padding: 9px;
+  border: none;
+  border-radius: 6px;
+  background-color: #2563eb;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.edit-btn:hover {
+  background-color: #1d4ed8;
+}
+
+
+/* DELETE BUTTON */
+
+.delete-btn {
+  flex: 1;
+  padding: 9px;
+  border: none;
+  border-radius: 6px;
+  background-color: #dc2626;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: #b91c1c;
+}
+
+
+/* TABLET */
+
+@media (max-width: 900px) {
+
+  .users-container {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+}
+
+
+/* MOBILE */
+
+@media (max-width: 600px) {
+
+  .dashboard {
+    padding: 15px;
+  }
+
+  .page-title {
+    font-size: 22px;
+  }
+
+  .users-container {
+    grid-template-columns: 1fr;
+  }
+
+  .chart-card {
+    padding: 10px;
+  }
+
+}
