@@ -102,8 +102,6 @@ export default function ShowUser() {
 
       </div>
 
-      {/* SHOW / HIDE BUTTON */}
-
       <button
         className="show-user-btn"
         onClick={() => setShowUser(!showUser)}
@@ -111,7 +109,6 @@ export default function ShowUser() {
         {showUser ? "Hide Users" : "Show Users"}
       </button>
 
-      {/* USERS */}
 
       {showUser && (
         <div className="users-container">
@@ -150,7 +147,6 @@ export default function ShowUser() {
 
               </div>
 
-              {/* BUTTONS */}
 
               <div className="action-buttons">
 
