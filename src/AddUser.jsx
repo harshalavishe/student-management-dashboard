@@ -17,7 +17,7 @@ export default function AddUser() {
       },
       city: city
     };
-    fetch('http://localhost:3000/users', {
+    fetch('https://student-management-dashboard-5puc.onrender.com/users', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

@@ -9,7 +9,7 @@ export default function UserDetail() {
   const [biology, setBiology] = useState("");
   const [city, setCity] = useState('');
   useEffect(() => {
-    fetch(`http://localhost:3000/users/${id}`)
+    fetch(`https://student-management-dashboard-5puc.onrender.com/users/${id}`)
       .then((response) => response.json())
       .then((data) => {
         setName(data.name);
@@ -31,7 +31,7 @@ export default function UserDetail() {
       },
       city: city
     };
-    fetch(`http://localhost:3000/users/${id}`, {
+    fetch(`https://student-management-dashboard-5puc.onrender.com/users/${id}`, {
       method: 'PUT',
 
       headers: {

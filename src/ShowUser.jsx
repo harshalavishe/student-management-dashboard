@@ -21,7 +21,7 @@ export default function ShowUser() {
 
   // GET USERS
   useEffect(() => {
-    fetch("http://localhost:3000/users")
+    fetch("https://student-management-dashboard-5puc.onrender.com/users")
       .then((response) => response.json())
       .then((data) => {
         setUsers(data);
@@ -30,7 +30,7 @@ export default function ShowUser() {
 
   // DELETE USER
   const handleDelete = (id) => {
-    fetch(`http://localhost:3000/users/${id}`, {
+    fetch(`https://student-management-dashboard-5puc.onrender.com/users/${id}`, {
       method: "DELETE"
     })
       .then(() => {
